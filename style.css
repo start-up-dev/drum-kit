@@ -1,0 +1,70 @@
+.pad {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.form-select {
+  width: 20%;
+}
+
+.kick-pad {
+  background-color: rgb(148, 181, 170);
+}
+.kick-pad:hover {
+  background-color: rgb(146, 255, 127);
+}
+
+.snare-pad {
+  background-color: rgb(167, 181, 148);
+}
+.snare-pad:hover {
+  background-color: rgb(255, 238, 127);
+}
+
+.hihat-pad {
+  background-color: rgb(177, 148, 181);
+}
+.hihat-pad:hover {
+  background-color: rgb(255, 127, 153);
+}
+
+.clap-pad {
+  background-color: rgb(154, 148, 181);
+}
+.clap-pad:hover {
+  background-color: rgb(146, 127, 255);
+}
+
+.active {
+  background-color: rgb(38, 200, 16) !important;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto !important;
+  text-align: center;
+}
+
+.form-range {
+  width: 70% !important;
+  display: block;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.mute {
+  padding: 12px;
+  border-radius: 5px;
+  background: gray;
+}
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
